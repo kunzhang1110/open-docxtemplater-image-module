@@ -8,9 +8,9 @@ Note this version is compatible with docxtemplater 3.x.
 
 Installation
 =============
-You first need to install docxtemplater by following its [installation guide](https://docxtemplater.readthedocs.io/en/latest/installation.html).
+If not already done, install docxtemplater by following its [installation guide](https://docxtemplater.readthedocs.io/en/latest/installation.html).
 
-For Node.js install this package:
+Node.js: after installing docxtemplater, install the open source image module:
 ```
 npm install open-docxtemplater-image-module
 ```

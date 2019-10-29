@@ -21,7 +21,7 @@
     "browserify": "^14.0.0",
     "chai": "^3.4.1",
     "docxtemplater": "^3.0.0",
-    "eslint": "^3.15.0",
+    "eslint": "^6.6.0",
     "image-size": "^0.5.1",
     "istanbul": "^0.4.5",
     "jszip": "^2.6.1",

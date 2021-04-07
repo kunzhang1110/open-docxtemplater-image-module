@@ -1,10 +1,8 @@
 Open source docxtemplater image module
 ==========================================
-This repository holds an updated version of docxtemplater image module.
-
 This package is open source. There is also a [paid version](https://docxtemplater.com/modules/image/) maintained by docxtemplater author.
 
-Note this version is compatible with docxtemplater 3.x.
+Note this version is compatible until docxtemplater 3.5.2. There are good forks of this repository.
 
 Installation
 =============

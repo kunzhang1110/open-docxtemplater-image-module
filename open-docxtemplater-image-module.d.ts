@@ -1,0 +1,1 @@
+declare module 'open-docxtemplater-image-module';

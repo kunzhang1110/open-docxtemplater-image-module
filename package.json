@@ -1,7 +1,8 @@
 {
   "name": "open-docxtemplater-image-module-2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Open Source Image Module for docxtemplater",
+  "types": "index.d.ts",
   "main": "js/index.js",
   "scripts": {
     "test:coverage": "istanbul cover _mocha --  es6/test.js",
@@ -34,7 +35,7 @@
     "type": "git",
     "url": "https://github.com/kunzhang1110/open-docxtemplater-image-module"
   },
-  "author": "Kun Zhang",
+  "author": "MaxRcd (Edgar Hipp), Kun Zhang",
   "license": "MIT",
   "dependencies": {
     "xmldom": "^0.1.27"

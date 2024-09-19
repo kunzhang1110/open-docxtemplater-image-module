@@ -86,8 +86,8 @@ fs.writeFile("examples/output.docx", buffer, (err) => {
 ```javascript
 import { Component } from '@angular/core';
 import Docxtemplater from 'docxtemplater';
-import ImageModule from 'open-docxtemplater-image-module';
-import * as JSZip from 'jszip';
+import ImageModule from 'open-docxtemplater-image-module-2';
+import Pizzip from 'pizzip';
 import { HttpClient } from '@angular/common/http';
 import * as saveAs from 'file-saver';
 
@@ -112,6 +112,7 @@ export class AppComponent {
     let index = 0;
 
     const imageOpts = {
+      centered: false,
       getImage: (tagValue: string) => {
         const returnImage = images[index];
         index++;
@@ -125,7 +126,7 @@ export class AppComponent {
 
     const imageModule = new ImageModule(imageOpts);
 
-    var zip = new JSZip(docxFile);
+    var zip = new Pizzip(docxFile!);
     var doc = new Docxtemplater()
       .loadZip(zip)
       .setData({ image: 'assets/image.png' })

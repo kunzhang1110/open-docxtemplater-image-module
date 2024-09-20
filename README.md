@@ -11,10 +11,8 @@ If not already done, install docxtemplater by following its [installation guide]
 Node.js: after installing docxtemplater, install the open source image module:
 
 ```
-npm install open-docxtemplater-image-module
+npm install open-docxtemplater-image-module-2
 ```
-
-For the browser find builds in `build/` directory.
 
 Alternatively, you can create your own build from the sources:
 
@@ -30,6 +28,11 @@ npm run uglify
 Assuming your **docx** or **pptx** template contains only the text `{%image}`:
 
 ```javascript
+var fs = require("fs");
+var Docxtemplater = require("docxtemplater");
+var ImageModule = require("open-docxtemplater-image-module-2");
+var PizZip = require("pizzip");
+
 //Below the options that will be passed to ImageModule instance
 var opts = {};
 opts.centered = false; //Set to true to always center images
